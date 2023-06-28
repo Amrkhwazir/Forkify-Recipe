@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#ffe0a2,#ffc96d);
+    height: 100vh;
+}
+
+#searchBar{
+    width: 500px!important;
+    border: 2px solid rgb(255, 182, 156);
+}
+#searchBar:focus{
+    border: none;
+    outline: none !important;
+}
+
+#searchBtn{
+    background-image: linear-gradient(#f9c886,#f39883);
+    color: whitesmoke;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+.recipeItemList{
+background-color: white;
+}
+.recipeItemList .reciepeList{
+    cursor: pointer;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    min-height: 80px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(184, 183, 183);
+    /* border: 1px solid black; */
+}
+.recipeImg{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;   
+}
+.detail{
+    width: 200px;
+    margin-top: 10px;
+}
+.detail p{
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.title{
+    font-weight: 600;
+    font-size: 15px;
+    color: #de9f7d;
+}
+.singleItemBox{
+position: relative;
+}
+.singleItemBox.ingredient{
+    width: 100% !important;
+}
+.imageBox #singleItemImage{
+    position: relative;
+    margin-top: 10px !important;
+    height: 400px !important;
+}
+.ingredientTitle{
+    padding: 5px;
+    background-image: linear-gradient(#f9c886,#f39883);
+    color: white;
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 230px;
+    top: 365px;
+    left: 260px;
+    transform: skew(35deg);
+    transform: rotate(-6deg);
+}
+.ingredientTitle h1{
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(61, 61, 61);
+}
+.ingredientDetailBox{
+    padding-top: 60px;
+    height: 120px; 
+    background: rgb(244, 244, 244);
+    /* border: 1px solid red; */
+}
+i{
+    font-size: 18px;
+    color: #de827d;;
+}
